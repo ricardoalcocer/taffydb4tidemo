@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="addwin" class="container" onOpen="doOpen" title="Add Item">
+		<RightNavButton platform="ios">
+			<Button style="Ti.UI.iPhone.SystemButtonStyle.PLAIN" systemButton="Ti.UI.iPhone.SystemButton.SAVE" onClick="doSave"/>
+		</RightNavButton>
+		
+		<LeftNavButton platform="ios">
+			<Button style="Ti.UI.iPhone.SystemButtonStyle.PLAIN" systemButton="Ti.UI.iPhone.SystemButton.CANCEL" onClick="doCancel"/>
+		</LeftNavButton>
+
+		<Menu id="menu" platform="android">
+            <MenuItem id="saveOption" title="Save" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" icon="Ti.Android.R.drawable.ic_menu_save" onClick="doSave" />
+        </Menu>
+
+        <ScrollView id="scrollView">
+            <Label>Operating System</Label>
+	        <TextField id="txtOS"></TextField>
+			<Label>Model</Label>
+	        <TextField id="txtModel"></TextField>
+	        <Label>Version</Label>
+	        <TextField id="txtVersion"></TextField>
+        </ScrollView>
+	</Window>
+</Alloy>

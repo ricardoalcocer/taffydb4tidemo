@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" onOpen="doOpen" title="TiTaffyDemo">
+		<TableView id="maintable"/>
+		<RightNavButton platform="ios">
+			<Button style="Ti.UI.iPhone.SystemButtonStyle.PLAIN" systemButton="Ti.UI.iPhone.SystemButton.ADD" onClick="doAddClick"/>
+		</RightNavButton>
+		<Menu id="menu" platform="android">
+            <MenuItem id="addOption" title="Add" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" icon="Ti.Android.R.drawable.ic_input_add" onClick="doAddClick" />
+        </Menu>
+	</Window>
+
+</Alloy>

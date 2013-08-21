@@ -1,0 +1,26 @@
+"TableViewRow":{
+	height: "50dp"
+}
+
+"#model":{
+	font:{
+		fontSize: "18dp",
+		fontBold: true
+	}
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font:{
+		fontSize: "13dp"
+	}
+}
+
+"#model":{
+	font:{
+		fontSize: "18dp",
+		fontWeight: "bold"
+	}
+}

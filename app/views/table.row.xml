@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow id="tableRow">
+		<View>
+			<Label id="model" top="5" left="5" height="Ti.UI.SIZE"></Label>
+			<Label id="moredata" bottom="5" left="5" height="Ti.UI.SIZE"></Label>
+		<View>
+	</TableViewRow>
+</Alloy>

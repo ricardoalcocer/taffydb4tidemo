@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor:"white",
+	navBarHidden: false,
+	exitOnClose: true,
+	barColor: "#000",
+	title: "The Great Taffy4Ti Demo"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font:{
+		fontSize: "13dp"
+	}
+}
+
+"TableViewRow":{
+	height: "50dp"
+}

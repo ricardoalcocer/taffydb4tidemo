@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup onOpen="doOpen">
+		<Tab title="All Records">
+			<Require src="tab1"/>
+		</Tab>
+		<Tab title="Android">
+			<Require src="tab2"/>
+		</Tab>
+		<Tab title="iOS">
+			<Require src="tab3"/>
+		</Tab>
+	</TabGroup>
+</Alloy>

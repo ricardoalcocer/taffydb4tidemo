@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" title="All Records">
+		<TableView id="allrecords"></TableView>
+	</Window>
+</Alloy>

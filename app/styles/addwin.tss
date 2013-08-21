@@ -1,0 +1,29 @@
+".container" : {
+	navBarHidden: false,
+	barColor: "#000",
+	backgroundColor: "#fff"
+}
+
+"Label":{
+	font:{
+		fontSize: "15dp",
+		fontWeight: "bold"
+	},
+	left: "5dp",
+	top: "10dp"
+}
+
+"TextField":{
+	width: Ti.UI.FILL,
+	height: "40dp",
+	left: "5dp",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+"#scrollView":{
+	 showVerticalScrollIndicator:"true",
+	 showHorizontalScrollIndicator:"false",
+	 height:"100%",
+	 width:"100%",
+	 layout:"vertical"
+}

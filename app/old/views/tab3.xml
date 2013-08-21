@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" title="iOS"> 
+		<TableView id="ios"></TableView>
+	</Window>
+</Alloy>
